@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+    <body>
+    <button onclick="document.getElementById('myImage').src='img/circuloverde.jpg'">Semáforo Verde</button>
+
+    <img id="myImage" src="img/circulorojo.jpg" style="width:100px">
+
+    <button onclick="document.getElementById('myImage').src='img/circulorojo.jpg'">Semáforo Rojo</button>
 </body>
 </html>
