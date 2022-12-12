@@ -41,7 +41,7 @@
 }
 #menuprincipal li:hover {
  background-color: #f4d03f;
-    color: black
+    color: rgb(255, 0, 0)
 }
 #menuprincipal a {
     font: bold 18px Arial, sans-serif;
