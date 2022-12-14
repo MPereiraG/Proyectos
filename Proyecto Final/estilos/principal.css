@@ -104,12 +104,12 @@ main > div {
     float: right;
     width: 280px;
     padding: 20px;
-    background-color: #E7F1F5;
+    background-color: #ffffff;
     border-radius: 10px;
 }
 #infoadicional h1 {
     font: bold 18px Arial, sans-serif;
-    color: #333333;
+    color: #000000;
     margin-bottom: 15px;
 }
 .recuperar {
@@ -142,7 +142,7 @@ article time {
 }
 article h1 {
     margin-bottom: 5px;
-    font: bold 30px Georgia, sans-serif;
+    font: bold 26px Georgia, sans-serif;
 }
 article p {
     font: 18px Georgia, sans-serif;
@@ -157,16 +157,21 @@ figure img {
 #pielogo {
     width: 96%;
     padding: 2%;
-    background-color: #a31846;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    background-image: url('../imaxes/nebularosa25.jpg');
 }
 #pielogo > div {
     width: 960px;
     margin: 0px auto;
-    background-color: #ffffff;
+    background-color: #000000;
     border-radius: 10px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
 }
 
 .seccionpie {
+    color: #FFFFFF;
     float: left;
     width: 27.33%;
     padding: 3%;
