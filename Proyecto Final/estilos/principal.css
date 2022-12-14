@@ -5,7 +5,7 @@
 #cabeceralogo {
     justify-content: center;	
     width: 100%;
-    height: 150px;
+    height: 100px;
     padding: 0% 3%;
     background-color: black;
     background-image: url('../imaxes/nebularosa25.jpg');
@@ -18,7 +18,7 @@
     
 }
 #cabeceralogo h1 {
-    font: bold 60px Neographic, sans-serif;
+    font: bold 30px Geomanist;
     color: white;
 }
 #menuprincipal {
