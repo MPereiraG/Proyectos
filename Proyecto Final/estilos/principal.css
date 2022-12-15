@@ -8,7 +8,7 @@
     height: 100px;
     padding: 0% 3%;
     background-color: black;
-    background-image: url('../imaxes/nebularosa25.jpg');
+    background-image: url('../img/nebularosa25.jpg');
 }
 #cabeceralogo > div {
     width: 960px;
@@ -159,7 +159,7 @@ figure img {
     padding: 2%;
     border-top: 1px solid #ffffff;
     border-bottom: 1px solid #ffffff;
-    background-image: url('../imaxes/nebularosa25.jpg');
+    background-image: url('../img/nebularosa25.jpg');
 }
 #pielogo > div {
     width: 960px;
