@@ -8,7 +8,7 @@
     height: 75px;
     padding: 0% 3%;
     background-color: black;
-    background-image: url('../img/nebularosa25.jpg');
+    background-image: url('../img/nebularojapeqarriba.png');
 }
 #cabeceralogo > div {
     width: 1200px;
@@ -61,7 +61,7 @@
     position: absolute;
     top: 31px;
     left: 0px;
-    background-color:  #a31846;
+    background-color:  #7c0a0ae0;
     box-shadow: 3px 3px 3px rgb(255, 255, 255);
     border-radius: 0px 0px 5px 5px;
     list-style: none;
@@ -82,7 +82,7 @@
     text-decoration: none;
 }
 #menuprincipal li:hover {
-    background-color: #a31846;
+    background-color: #7c0a0a;
 }
 
 main {
@@ -160,7 +160,7 @@ figure img {
     padding: 2%;
     border-top: 1px solid #ffffff;
     border-bottom: 1px solid #ffffff;
-    background-image: url('../img/nebularosa25.jpg');
+    background-image: url('../img/nebularojapeqabajo.png');
 }
 #pielogo > div {
     width: 960px;
