@@ -5,20 +5,20 @@
 #cabeceralogo {
     justify-content: center;	
     width: 100%;
-    height: 100px;
+    height: 75px;
     padding: 0% 3%;
     background-color: black;
     background-image: url('../img/nebularosa25.jpg');
 }
 #cabeceralogo > div {
-    width: 960px;
+    width: 1200px;
     margin: 0px auto;
-    margin-left: 74px;
-    padding-top: 40px;
+    margin-left: 8px;
+    padding-top: 18px;
     
 }
 #cabeceralogo h1 {
-    font: bold 30px Geomanist, sans-serif;
+    font: bold 35px Geomanist, sans-serif;
     color: white;
 }
 #menuprincipal {
@@ -51,9 +51,10 @@
 #listamenu > li {
     position: relative;
     display: inline-block;
-    height: 16px;
-    padding: 15px 10px 0px 10px;
+    height: 14px;
+    padding: 6px 30px 10px 10px;
     margin-right: 5px;
+    margin-left: 20px;
 }
 #listamenu li > ul {
     display: none;
@@ -61,7 +62,7 @@
     top: 31px;
     left: 0px;
     background-color:  #a31846;
-    box-shadow: 3px 3px 5px rgb(255, 255, 255);
+    box-shadow: 3px 3px 3px rgb(255, 255, 255);
     border-radius: 0px 0px 5px 5px;
     list-style: none;
     z-index: 1000;
