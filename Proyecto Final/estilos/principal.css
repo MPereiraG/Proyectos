@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
-#cabeceralogo {
+#titulo {
     justify-content: center;	
     width: 100%;
     height: 75px;
@@ -10,18 +10,18 @@
     background-color: black;
     background-image: url('../img/nebularojapeqarriba.png');
 }
-#cabeceralogo > div {
+#titulo > div {
     width: 1200px;
     margin: 0px auto;
     margin-left: 8px;
     padding-top: 18px;
     
 }
-#cabeceralogo h1 {
+#titulo h1 {
     font: bold 35px Geomanist, sans-serif;
     color: white;
 }
-#menuprincipal {
+#menu {
     width: 100%;
     height: 30px;
     padding: 0% 3%;
@@ -30,23 +30,23 @@
     border-top: 1px solid #ffffff;
     border-bottom: 1px solid #ffffff;
 }
-#menuprincipal > div {
+#menu > div {
     width: 960px;
     margin: 0px auto;
 }
-#menuprincipal li {
+#menu li {
     display: inline-block;
     height: 30px;
     padding: 15px 10px 0px 10px;
     margin-right: 5px;
 }
-#menuprincipal li:hover {
- background-color: #f4d03f;
+#menu li:hover {
+ background-color: #7c0a0a;
     color: rgb(255, 0, 0)
 }
-#menuprincipal a {
+#menu a {
     font: bold 18px Arial, sans-serif;
-    color: #f4d03f;
+    color: #7c0a0a;
     text-decoration: none;
 }
 #listamenu > li {
@@ -83,14 +83,15 @@
     color: #ffffff;
     text-decoration: none;
 }
-#menuprincipal li:hover {
+#menu li:hover {
     background-color: #7c0a0a;
 }
 
 main {
     width: 96%;
     padding: 2%;
-    background-color: #979797;
+    background-color: #838383;
+    background-image: url('../img/grisgeo.png');
 }
 main > div {
     width: 960px;
@@ -103,45 +104,12 @@ main > div {
     background-color: #FFFFFF;
     border-radius: 10px;
 }
-#infoadicional {
-    float: right;
-    width: 280px;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-}
-#infoadicional h1 {
-    font: bold 18px Arial, sans-serif;
-    color: #000000;
-    margin-bottom: 15px;
-}
 .recuperar {
     clear: both;
 }
 article {
     position: relative;
     padding: 0px 40px 20px 40px;
-}
-article time {
-    display: block;
-    position: absolute;
-    top: -5px;
-    left: -70px;
-    width: 80px;
-    padding: 15px 5px;
-    background-color: #094660;
-    box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.7);
-    border-radius: 5px;
-}
-.numerodia {
-    font: bold 36px Verdana, sans-serif;
-    color: #FFFFFF;
-    text-align: center;
-}
-.nombredia {
-    font: 12px Verdana, sans-serif;
-    color: #FFFFFF;
-    text-align: center;
 }
 article h1 {
     margin-bottom: 5px;
@@ -179,4 +147,13 @@ figure img {
     float: left;
     width: 27.33%;
     padding: 3%;
+}
+.enlaces:link {
+    color: #ff0000;
+}
+.enlaces:hover {
+    color: #b41111ec;
+}
+.enlaces:visited {
+    color: #960c0c;
 }
