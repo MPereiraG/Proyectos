@@ -125,38 +125,6 @@ figure img {
     padding: 5px;
     border: 1px solid;
 }
-#pielogo {
-    width: 96%;
-    padding: 2%;
-    border-top: 1px solid #ffffff;
-    border-bottom: 1px solid #ffffff;
-    background-image: url('../img/nebularojapeqabajo.png');
-}
-#pielogo > div {
-    width: 960px;
-    margin: 0px auto;
-    background-color: #000000;
-    background-image: url('../img/negro.png');
-    border-radius: 10px;
-    border-top: 1px solid #ffffff;
-    border-bottom: 1px solid #ffffff;
-}
-
-.seccionpie {
-    color: #FFFFFF;
-    float: left;
-    width: 27.33%;
-    padding: 3%;
-}
-.enlaces:link {
-    color: #ff0000;
-}
-.enlaces:hover {
-    color: #b41111ec;
-}
-.enlaces:visited {
-    color: #960c0c;
-}
 
         /* CARRUSEL */
 
@@ -243,4 +211,45 @@ img {
 
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+        /* FIN CARRUSEL */
+
+#informacion h1 {
+   color: white;
+}
+#informacion p {
+    color: white;
+ }
+#pielogo {
+    width: 96%;
+    padding: 2%;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    background-image: url('../img/nebularojapeqabajo.png');
+}
+#pielogo > div {
+    width: 960px;
+    margin: 0px auto;
+    background-color: #000000;
+    background-image: url('../img/negro.png');
+    border-radius: 10px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.seccionpie {
+    color: #FFFFFF;
+    float: left;
+    width: 27.33%;
+    padding: 3%;
+}
+.enlaces:link {
+    color: #ff0000;
+}
+.enlaces:hover {
+    color: #b41111ec;
+}
+.enlaces:visited {
+    color: #960c0c;
 }
