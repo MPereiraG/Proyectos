@@ -207,10 +207,12 @@ img {
 #informacion h1 {
    color: white;
    font: bold 28px Arial, sans-serif;
+   text-align: center;
 }
 #informacion p {
     color: white;
     font: bold 18px Arial, sans-serif;
+    text-indent: 50px;
  }
 #pielogo {
     width: 96%;
